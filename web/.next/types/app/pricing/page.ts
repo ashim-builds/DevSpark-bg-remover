@@ -1,8 +1,8 @@
 // File: C:\Users\Ashim Adhikari\Documents\DevSpark bg-remover\frontend\app\pricing\page.tsx
-import * as entry from '../../../../app/pricing/page.js'
+import * as entry from '../../../../app/pricing/page.jsx'
 import type { ResolvingMetadata, ResolvingViewport } from 'next/dist/lib/metadata/types/metadata-interface.js'
 
-type TEntry = typeof import('../../../../app/pricing/page.js')
+type TEntry = typeof import('../../../../app/pricing/page.jsx')
 
 // Check that the entry is a valid entry
 checkFields<Diff<{
